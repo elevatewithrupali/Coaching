@@ -406,6 +406,9 @@ input:focus, textarea:focus {
     object-fit: cover;
     margin-bottom: 15px;
 }
+#resources {
+    padding-top: 150px;
+}
 
 /* Footer */
 footer {
@@ -445,7 +448,7 @@ footer {
     }
 
     .brand img.logo {
-        height: 50px;
+        height: 60px;
     }
 
     .hamburger {
