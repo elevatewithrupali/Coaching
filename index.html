@@ -23,12 +23,52 @@
     </nav>
 
     <section id="hero">
-        <div class="hero-content">
-            <h1>Elevate Your Potential</h1>
-            <p>Sophisticated communication, leadership, and mindset coaching for the modern professional.</p>
-            <a href="#services" class="cta-button" style="margin-top: 30px;">Explore Services</a>
-        </div>
-    </section>
+    <svg id="hero-svg" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+        <!-- Sky gradient background -->
+        <defs>
+            <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color:#e8f4f8;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#f0f9fc;stop-opacity:1" />
+            </linearGradient>
+        </defs>
+        
+        <!-- Sky -->
+        <rect width="1200" height="700" fill="url(#skyGradient)"/>
+        
+        <!-- Mountains - Back layer (darker) -->
+        <path d="M 0 450 Q 300 300 600 400 T 1200 450 L 1200 700 L 0 700 Z" fill="#4a7c59" opacity="0.6"/>
+        
+        <!-- Mountains - Front layer (lighter) -->
+        <path d="M 0 500 Q 200 350 400 420 Q 600 480 800 400 Q 1000 350 1200 480 L 1200 700 L 0 700 Z" fill="#5a9d6f"/>
+        
+        <!-- Birds group 1 -->
+        <g class="bird-group" style="animation: flyUp1 8s infinite ease-in-out;">
+            <path d="M 100 400 Q 105 395 110 400 Q 105 398 100 400" fill="#333" opacity="0.7"/>
+            <path d="M 120 390 Q 125 385 130 390 Q 125 388 120 390" fill="#333" opacity="0.7"/>
+            <path d="M 140 380 Q 145 375 150 380 Q 145 378 140 380" fill="#333" opacity="0.7"/>
+        </g>
+        
+        <!-- Birds group 2 -->
+        <g class="bird-group" style="animation: flyUp2 10s infinite ease-in-out; animation-delay: 1s;">
+            <path d="M 500 450 Q 505 445 510 450 Q 505 448 500 450" fill="#444" opacity="0.6"/>
+            <path d="M 520 440 Q 525 435 530 440 Q 525 438 520 440" fill="#444" opacity="0.6"/>
+            <path d="M 540 430 Q 545 425 550 430 Q 545 428 540 430" fill="#444" opacity="0.6"/>
+        </g>
+        
+        <!-- Birds group 3 -->
+        <g class="bird-group" style="animation: flyUp3 9s infinite ease-in-out; animation-delay: 2s;">
+            <path d="M 900 420 Q 905 415 910 420 Q 905 418 900 420" fill="#333" opacity="0.65"/>
+            <path d="M 920 410 Q 925 405 930 410 Q 925 408 920 410" fill="#333" opacity="0.65"/>
+            <path d="M 940 400 Q 945 395 950 400 Q 945 398 940 400" fill="#333" opacity="0.65"/>
+        </g>
+    </svg>
+    
+    <div class="hero-content">
+        <h1>Elevate Your Potential</h1>
+        <p>Sophisticated communication, leadership, and mindset coaching for the modern professional.</p>
+        <a href="#services" class="cta-button" style="margin-top: 30px;">Explore Services</a>
+    </div>
+</section>
 
     <section id="about">
         <h2 class="section-title">About Me</h2>
