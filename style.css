@@ -78,6 +78,10 @@ nav {
     color: var(--primary-color);
     text-decoration: none;
 }
+.brand img.logo {
+    height: 40px;
+    width: auto;
+}
 
 .nav-links {
     display: flex;
