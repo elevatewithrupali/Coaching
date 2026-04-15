@@ -70,7 +70,7 @@ nav {
     background: rgba(255, 255, 255, 0.95);
     z-index: 1000;
     border-bottom: 1px solid #eee;
-    height: 60px;
+    height: 110px;
 }
 
 .brand {
@@ -80,11 +80,11 @@ nav {
     text-decoration: none;
     display: flex;
     align-items: center;
-    height: 60px;
+    height: 110px;
 }
 
 .brand img.logo {
-    height: 100px;
+    height: 80px;
     width: auto;
     display: block;
 }
