@@ -63,13 +63,14 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 0 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: rgba(255, 255, 255, 0.95);
     z-index: 1000;
     border-bottom: 1px solid #eee;
+    height: 60px;
 }
 
 .brand {
@@ -77,6 +78,15 @@ nav {
     font-weight: 600;
     color: var(--primary-color);
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.brand img.logo {
+    height: 40px;
+    width: auto;
+    display: block;
 }
 .brand img.logo {
     height: 40px;
