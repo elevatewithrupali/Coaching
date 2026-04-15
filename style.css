@@ -88,10 +88,6 @@ nav {
     width: auto;
     display: block;
 }
-.brand img.logo {
-    height: 40px;
-    width: auto;
-}
 
 .nav-links {
     display: flex;
@@ -138,11 +134,6 @@ nav {
     animation: float 3s ease-in-out infinite;
     transition: var(--transition);
     z-index: 0;
-}
-
-.hero-image:hover {
-    animation: none;
-    transform: scale(1.05);
 }
 
 #hero .hero-content {
