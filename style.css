@@ -158,17 +158,17 @@ nav {
     font-size: 4rem;
     margin-bottom: 1rem;
     animation: fadeInDown 0.8s ease-out;
-    text-shadow: 0 2px 6px rgba(0, 0, 0, 1), 0 8px 20px rgba(0, 0, 0, 0.85);
-    color: #fff;
+    text-shadow: 0 2px 6px rgba(255, 255, 255, 1), 0 8px 20px rgba(255, 255, 255, 0.85);
+    color: #000;
 }
 
 #hero p {
     font-size: 1.2rem;
-    color: #fff;
+    color: #000;
     max-width: 600px;
     margin: 0 auto;
     animation: fadeInUp 0.8s ease-out 0.2s backwards;
-    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.9), 0 0 15px rgba(255, 255, 255, 0.5);
+    text-shadow: 0 1px 8px rgba(255, 255, 255, 0.9), 0 0 15px rgba(255, 255, 255, 0.5);
 }
 
 #hero .cta-button {
@@ -229,6 +229,23 @@ nav {
     }
 }
 
+.headshot-info {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.headshot-info h3 {
+    font-size: 1.3rem;
+    margin-bottom: 3px;
+    color: var(--primary-color);
+}
+
+.headshot-info p {
+    font-size: 0.9rem;
+    color: #888;
+    margin: 0;
+}
 .social-links {
     margin-top: 20px;
     display: flex;
